@@ -1,0 +1,25 @@
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+    <servlet>
+        <servlet-name>OneServlet</servlet-name>
+        <servlet-class>com.mqf.controller.OneServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>TwoServlet</servlet-name>
+        <servlet-class>com.mqf.controller.TwoServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>OneServlet</servlet-name>
+        <url-pattern>/oneServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>TwoServlet</servlet-name>
+        <url-pattern>/student/delete.do</url-pattern>
+        <url-pattern>/student/select.do</url-pattern>
+        <url-pattern>/student/save.do</url-pattern>
+        <url-pattern>/student/update.do</url-pattern>
+    </servlet-mapping>
+
+</web-app>
